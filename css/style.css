@@ -1,0 +1,82 @@
+body {
+	font-family: Helvetica, sans-serif;
+}
+
+
+.container {
+	width: 960px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.hero {
+	background: #efefef;
+	padding: 20px;
+	text-align: center;
+}
+
+.btn {
+	font-family: 'Open Sans',sans-serif;
+    font-weight: 300;
+    display: inline-block;
+    box-sizing: border-box;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+    -webkit-transition-property: background-color,color;
+    transition-property: background-color,color;
+}
+
+.space20 {
+	margin-top: 20px;
+}
+
+.space40 {
+	margin-top: 40px;
+}
+
+.space60 {
+	margin-top: 60px;
+}
+
+.btn {
+	cursor: pointer;
+}
+
+.btn.download {
+    background: #71b74d;
+    text-transform: uppercase;
+    height: 3.375rem;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 3.375rem;
+    padding: 0 1.5625rem 0 .9rem;
+    border-radius: 5px;
+    font-size: 1.125rem;
+}
+
+.btn.download:hover, .btn.download:active {
+    background-color: #66A545;
+}
+
+.btn.download:before {
+    content: '';
+    position: relative;
+    background-position: -60px -304px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    width: 37px;
+    height: 31px;
+    background-image: url("../images/sprite.png");
+    margin-right: .625rem;
+    margin-top: -5px;
+}
+
+.btn.download-chrome:before {
+	background-position: -249px -235px;
+    width: 40px;
+    height: 35px;
+}
+    
