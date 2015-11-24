@@ -7,6 +7,11 @@ body {
 	width: 960px;
 	max-width: 100%;
 	margin: 0 auto;
+
+}
+
+p {
+    line-height: 1.2em;
 }
 
 .hero {
@@ -101,6 +106,7 @@ ul.nav-menu {
 ul.nav-menu li {
     display: inline-block;
     list-style-type: none;
+    padding-right: 10px;
 }
 
 ul.nav-menu li a {
@@ -110,6 +116,17 @@ ul.nav-menu li a {
 
 ul.nav-menu li a:hover {
     color: #66A545;
+}
+
+.features > h2, .features > p{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.feature {
+    background: #EFEFEF;
+    padding: 10px;
+    margin-bottom: 10px;
 }
 
 .embed-container {
@@ -126,4 +143,40 @@ ul.nav-menu li a:hover {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+.one-third {
+    width: 275px;
+    display: inline-block;
+    margin-left :10px;
+    margin-right: 10px;
+    overflow-x: hidden;
+}
+
+
+@media screen and (max-width: 480px) {
+    .one-third {
+        width: 100%;
+        margin-left:0;
+        margin-right: 0;
+
+    }
+
+    ul.nav-menu {
+        float: none;
+        display: block;
+        clear: both;
+    }
+
+    ul.nav-menu li{
+        width: 100%;
+        background:#EFEFEF;
+        padding-top:10px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+
+    ul.nav-menu li a {
+        display: block;
+    }
 }
