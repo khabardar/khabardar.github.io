@@ -25,9 +25,18 @@ body {
     -webkit-transition-property: background-color,color;
     transition-property: background-color,color;
 }
-
+.pull-left {
+    float:left;
+}
 .pull-right {
     float:right;
+}
+.clear {
+    clear:both;
+}
+
+.space10 {
+    margin-top: 10px;
 }
 
 .space20 {
